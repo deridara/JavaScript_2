@@ -23,7 +23,7 @@
         
         <h3>Регистрация участника</h3>
         
-        <form action="GET" id="create-user-fom">
+        <form action="POST" id="user-form">
             <div class="grid-wrap">
                 <label for='name'>Имя: </label>
                 <input type="text" id='name' class='text-field'>
@@ -33,9 +33,9 @@
                 <input type="text" id='age' class='text-field'>
             </div>
             <div class="btn-wrap">
-                <input class='btn' type="submit" id="subbmil-btn" value="Отправить данные">
+                <input class='btn' type="submit" id="submit-btn" value="Отправить данные">
                 <input class='btn' type="reset" id='reset-btn'>
-                <input class='btn' type="button" value=' Проверить'>
+                <input class='btn' type="button" id='check-btn' value='Проверить'>
             </div>
         </form>
     </div>

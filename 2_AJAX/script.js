@@ -10,7 +10,7 @@ function getLastMsg() {
             console.error(xhr.status, ': ', xhr.statusText)
         } else {
             a = xhr.responseText;
-            console.log('пришло: ' + a, typeof a);
+            console.log('got last message');
         }
     }
 
@@ -27,7 +27,7 @@ function sendMsg(msg) {
         if (xhr.status !== 200) {
             console.error(xhr.status, ': ', xhr.statusText)
         } else {
-            console.log(xhr.responseText)
+            console.log('sent new message')
         }
     }
     xhr.open('POST', 'http://89.108.65.123/sendMessage', true);
@@ -46,10 +46,34 @@ function getUsersArray() {
         if (xhr.status !== 200) {
             console.error(xhr.status, ': ', xhr.statusText)
         } else {
-            console.log('done');
+            console.log('got user array');
         }
     }
 
     xhr.send();
-    return xhr.responseText;
+    return xhr.responseText;  
+}
+
+function usersContainEmail (newMail, users) {
+    for (let user of users) {
+        if (user.email === newMail) return true;
+        console.log(user.email);
+    }
+    return false;
+}
+
+function sendNewUser (user) {
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'http://89.108.65.123/user/', false);
+    xhr.onreadystatechange = function () {
+        //        console.log(xhr.readyState);
+        if (xhr.readyState !== 4) return;
+        if (xhr.status !== 200) {
+            console.error(xhr.status, ': ', xhr.statusText)
+        } else {
+            console.log('sent new User')
+        }
+    }
+    
+    xhr.send(user);
 }
