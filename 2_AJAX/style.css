@@ -1,0 +1,109 @@
+/* line 1, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+body {
+  background: #eee;
+  font-size: 18px; }
+
+/* line 6, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+h3 {
+  text-align: center; }
+
+/* line 10, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+.btn {
+  height: 50px;
+  background: #ddd;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  display: inline-block;
+  margin: 5px;
+  width: 160px;
+  font-size: 14px; }
+
+/* line 21, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+.btn:hover {
+  background: #c7e5c0; }
+
+/* line 25, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+.btn:active {
+  background: #9ddd91; }
+
+/* line 29, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+.wrapper {
+  background: white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px 15px 30px; }
+
+/* line 36, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+#last-msg-btn,
+#new-msg-btn {
+  width: 190px; }
+
+/* line 42, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+#last-msg-btn,
+.last-msg {
+  display: inline-block; }
+
+/* line 47, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+.last-msg {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  line-height: 45px;
+  text-align: center;
+  float: right;
+  background: #eee;
+  width: 380px;
+  margin: 7px; }
+
+/* line 58, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+#new-msg {
+  margin: 0 10px 0; }
+
+/* line 62, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+.grid-wrap {
+  display: grid;
+  grid-template: 'name-l name-i' 'mail-l mail-i' 'age-l age-i';
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  margin: 0 0 20px; }
+
+/* line 73, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+.text-field {
+  height: 40px;
+  width: 150px;
+  box-sizing: border-box;
+  padding: 10px; }
+
+/* line 80, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+label {
+  text-align: right;
+  line-height: 40px; }
+
+/* line 85, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+label[for=name] {
+  grid-area: name-l; }
+
+/* line 89, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+label[for=email] {
+  grid-area: mail-l; }
+
+/* line 93, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+label[for=age] {
+  grid-area: age-l; }
+
+/* line 97, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+#name {
+  grid-area: name-i; }
+
+/* line 101, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+#email {
+  grid-area: mail-i; }
+
+/* line 105, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+#age {
+  grid-area: age-i; }
+
+/* line 109, /Users/dara/Sites/GeekBrains/JavaScript_2/2_AJAX/style.scss */
+.btn-wrap {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

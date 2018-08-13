@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        
+        <h3>Проверка сообщения</h3>
+        
+        <input class='btn' type="button" id='last-msg-btn' value='Последнее сообщение'>
+        <div class="last-msg">
+            msg
+        </div>
+        
+        <input class="btn" type="button" value='Отправить сообщение' id="new-msg-btn">
+        <input type="text" id='new-msg' class='text-field' placeholder="Ваше сообщение">
+        
+        <h3>Регистрация участника</h3>
+        
+        <form action="GET" id="create-user-fom">
+            <div class="grid-wrap">
+                <label for='name'>Имя: </label>
+                <input type="text" id='name' class='text-field'>
+                <label for='email'>E-mail: </label>
+                <input type="email" id="email" class='text-field'>
+                <label for='age'>Возраст: </label>
+                <input type="text" id='age' class='text-field'>
+            </div>
+            <div class="btn-wrap">
+                <input class='btn' type="submit" id="subbmil-btn" value="Отправить данные">
+                <input class='btn' type="reset" id='reset-btn'>
+                <input class='btn' type="button" value=' Проверить'>
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src='script.js'></script>
+<script src="dom.js"></script>
+</html>

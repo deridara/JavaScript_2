@@ -1,0 +1,111 @@
+body {
+    background: #eee;
+    font-size: 18px;
+    }
+
+h3 {
+    text-align: center;
+}
+
+.btn {
+    height: 50px;
+    background: #ddd;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 5px;
+    width: 160px;
+    font-size: 14px
+}
+
+.btn:hover {
+    background: #c7e5c0;
+}
+
+.btn:active {
+    background: #9ddd91;
+}
+
+.wrapper {
+    background: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 15px 30px;
+}
+
+#last-msg-btn,
+#new-msg-btn {
+    width: 190px;
+}
+
+
+#last-msg-btn,
+.last-msg {
+    display: inline-block;
+}
+
+.last-msg {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    line-height: 45px;
+    text-align: center;
+    float: right;
+    background: #eee;
+    width: 380px;
+    margin: 7px
+}
+
+#new-msg {
+    margin: 0 10px 0;
+}
+
+.grid-wrap {
+    display: grid;
+    grid-template: 'name-l name-i'
+                    'mail-l mail-i'
+                    'age-l age-i';
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin: 0 0 20px;
+}
+
+
+.text-field {
+    height: 40px;
+    width: 150px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+label {
+    text-align: right;
+    line-height: 40px;
+}
+
+label[for=name] {
+    grid-area: name-l;
+}
+
+label[for=email] {
+    grid-area: mail-l;
+}
+
+label[for=age] {
+    grid-area: age-l;
+}
+
+#name {
+    grid-area: name-i;
+}
+
+#email {
+    grid-area: mail-i;
+}
+
+#age {
+    grid-area: age-i;
+}
+
+.btn-wrap {
+    text-align: center;
+}
