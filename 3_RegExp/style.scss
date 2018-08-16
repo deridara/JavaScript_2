@@ -1,0 +1,48 @@
+
+
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    background: #eee;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    position: absolute;
+    width: 100%;  
+}
+
+.task {
+    background: #dee5fa;
+    display: inline-flex;
+    height: 500px;
+    width: 50%;
+    margin: 5px;
+    position: relative;
+}
+
+textarea {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50%;
+    width: 80%;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    background: #8ad9fc;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn:hover {
+    background: #eef4ab
+}
