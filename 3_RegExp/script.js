@@ -61,6 +61,7 @@ function showErrorField(fieldID) {
     console.log(fieldID);
     const field = document.getElementById(fieldID);
     field.className = 'error';
+    alert('Please, fill the fields accordind the template in the homework')
     return;
 }
 
