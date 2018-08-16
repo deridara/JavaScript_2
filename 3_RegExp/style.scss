@@ -25,12 +25,16 @@ h2 {
 
 textarea {
     display: block;
+    padding: 10px;
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
     height: 50%;
     width: 80%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #444;
 }
 
 .btn {
@@ -38,11 +42,14 @@ textarea {
     height: 30px;
     position: absolute;
     background: #8ad9fc;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .btn:hover {
     background: #eef4ab
+}
+
+#processBtn {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
 }
