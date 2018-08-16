@@ -24,25 +24,32 @@ h2 {
 /* line 26, /Users/dara/Sites/GeekBrains/JavaScript_2/3_RegExp/style.scss */
 textarea {
   display: block;
+  padding: 10px;
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
   height: 50%;
-  width: 80%; }
+  width: 80%;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #444; }
 
-/* line 36, /Users/dara/Sites/GeekBrains/JavaScript_2/3_RegExp/style.scss */
+/* line 40, /Users/dara/Sites/GeekBrains/JavaScript_2/3_RegExp/style.scss */
 .btn {
   width: 100px;
   height: 30px;
   position: absolute;
-  background: #8ad9fc;
-  bottom: 20%;
-  left: 50%;
-  transform: translateX(-50%); }
+  background: #8ad9fc; }
 
-/* line 46, /Users/dara/Sites/GeekBrains/JavaScript_2/3_RegExp/style.scss */
+/* line 47, /Users/dara/Sites/GeekBrains/JavaScript_2/3_RegExp/style.scss */
 .btn:hover {
   background: #eef4ab; }
+
+/* line 51, /Users/dara/Sites/GeekBrains/JavaScript_2/3_RegExp/style.scss */
+#processBtn {
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%); }
 
 /*# sourceMappingURL=style.css.map */
